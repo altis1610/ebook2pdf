@@ -52,7 +52,7 @@ def capture_pages(driver, total_runs, screenshot_folder, pagefolder, cut_l, cut_
     while run_count < total_runs:
         window_size = driver.get_window_size()
         pyautogui.click(window_size['width'] - 10, window_size['height'] // 2)
-        time.sleep(2.5)
+        time.sleep(3)
 
         screenshot_path = os.path.join(screenshot_folder, f"screenshot_{screenshot_count}.png")
         driver.save_screenshot(screenshot_path)
