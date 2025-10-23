@@ -34,7 +34,7 @@ This project provides a personal **note-keeping automation** — ideal for educa
 
 ### 1. Clone or Download the Project
 ```bash
-git clone <repository-url>
+git clone https://github.com/altis1610/ebook2pdf.git
 cd Book_script
 ```
 
