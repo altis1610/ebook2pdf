@@ -1,40 +1,26 @@
-# Automated eBook Note Capture & PDF Archiver
+# Automated eBook Screenshot to PDF Generator
 
-This tool helps users **preserve their personal notes and reading highlights** from eBook platforms by automatically capturing key reading pages and compiling them into a clean, organized PDF for offline reference.
+This is an automation tool that captures screenshots from eBook websites and converts them into a PDF file.
 
-## ✨ Purpose
+## Features
 
-Many eBook platforms don’t allow long-term storage of your annotations or notes.  
-This project provides a personal **note-keeping automation** — ideal for educational or research use — to retain the pages where you’ve made important highlights or comments.
+- Automatically launches Chrome and navigates to the eBook website
+- Auto screenshot capture and page-turning
+- Intelligent cropping to remove borders
+- Converts captured images to PDF
+- Supports custom project name and page count
 
-> ⚠️ **Disclaimer:**  
-> This tool is designed **only for personal educational use**. It should be used to preserve your **own reading notes or highlights**, not to duplicate or redistribute copyrighted eBooks.
+## System Requirements
 
----
+- Python 3.7+
+- Google Chrome browser
+- ChromeDriver (auto-downloaded)
 
-## 🧭 Features
-
-- Automatically opens Chrome and navigates to your eBook or note-taking page  
-- Supports login and manual note access  
-- Captures screenshots of **noted or highlighted pages**  
-- Crops out browser borders for clean pages  
-- Merges captured images into a single **PDF archive of your reading notes**  
-- Custom project name and note-page count supported
-
----
-
-## ⚙️ System Requirements
-
-- Python 3.7 or newer  
-- Google Chrome installed  
-- ChromeDriver (auto-downloaded by the script)
-
----
 ## Installation Steps
 
 ### 1. Clone or Download the Project
 ```bash
-git clone https://github.com/altis1610/ebook2pdf.git
+git clone <repository-url>
 cd Book_script
 ```
 
