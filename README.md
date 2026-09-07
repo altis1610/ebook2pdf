@@ -20,7 +20,7 @@ This is an automation tool that captures screenshots from eBook websites and con
 
 ### 1. Clone or Download the Project
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/altis1610/ebook2pdf.git)
 cd Book_script
 ```
 
